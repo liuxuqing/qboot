@@ -113,8 +113,8 @@ var qboot = function(){
 }();
 
 //Check for existing options to use otherwise call default options
-if(window.qtOptions){
-    qboot.init(window.qtOptions);
+if(window.qbootOptions){
+    qboot.init(window.qbootOptions);
 }else {
     qboot.init();
 }
