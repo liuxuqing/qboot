@@ -116,5 +116,5 @@ var qboot = function(){
 if(window.qbootOptions){
     qboot.init(window.qbootOptions);
 }else {
-    qboot.init();
+//    qboot.init();
 }
